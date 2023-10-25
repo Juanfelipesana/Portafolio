@@ -1,0 +1,45 @@
+﻿#foto {
+    width: 200px;
+    margin: 2rem 0;
+    border-radius: 50%
+}
+.seccion-bienvenida {/* un estilo para la sección en general*/
+
+    margin: 5rem 0 10rem 0;
+    color: white;
+}
+
+.seccion-bienvenida h1{ /*creamos un estilo para el titulo*/
+
+    margin-bottom: 1rem;
+}
+
+.seccion-bienvenida p { /*Creamos un estilo para los párrafos*/
+    
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 1.25rem;
+
+    
+}
+
+#imagen-dotnet { /*Así agregamos un estilo con el id de la imagen ya agregada*/
+
+    width: 500px;
+    
+}
+
+.cabecera {
+    font-weight: bold;
+}
+
+.habilidades ul { /*Estamos afectando el estilo de la lista solamente (ul) */
+
+    list-style: none; /*Quitamos las viñetas de la vista*/
+    padding-left: 0; /*Quitamos el padding (separación del texto con el borde.*/
+}
+
+.habilidades i{
+    color: #0d6efd;
+    font-size: 50px;
+}
